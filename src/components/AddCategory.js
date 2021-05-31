@@ -18,7 +18,8 @@ export const AddCategory = ({ sendCategory }) => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <input type='text' value={inputValue} onChange={handleInputChange} />
+            <label htmlFor="search">Search your Gifs</label>
+            <input id="search" type='text' value={inputValue} onChange={handleInputChange} />
         </form>
         
     )

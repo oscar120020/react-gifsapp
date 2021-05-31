@@ -4,6 +4,8 @@
 
 body {
     padding: 50px;
+    background-color: #212323;
+    color: white;
 }
 
 input{
@@ -22,6 +24,8 @@ input{
     align-content: center;
     border: 1px solid gray;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
     margin-right: 20px;
     overflow: hidden;
@@ -34,4 +38,10 @@ input{
 
 .card img{
     max-height: 170px;
+}
+
+.vladimir {
+    color: red;
+    font-weight: bold;
+    text-align: center;
 }

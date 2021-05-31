@@ -12,6 +12,8 @@ export const GifExpertApp = () => {
     return (
         <>
             <h1>GifExpertApp</h1>
+            <h2 className="vladimir animate__animated animate__heartBeat animate__repeat-3">Aprende Vladimir</h2>
+            
             <AddCategory sendCategory={sendCategory}/>
             <hr/>
             <ol>
